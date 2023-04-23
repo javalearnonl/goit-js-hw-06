@@ -30,10 +30,10 @@
     case './task-09.html':
       nextPagePath = 'task-10.html';
       break;
-    default:
+    // default:
     
-      nextPagePath = 'task-01.html';
-      break;
+    //   nextPagePath = 'task-01.html';
+    //   break;
   }
 
   nextPageButton.addEventListener('click', () => {
