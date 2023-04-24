@@ -11,10 +11,6 @@ function onLoginBtnClick(evt) {
 
   if (email.value === '' && password.value === '') {
     alert('All input forms must contain data');
-  } else if (email.value === '') {
-    alert('Please, enter your email!');
-  } else if (password.value === '') {
-    alert('Please, enter your password!');
   } else {
     const formData = { email: email.value, password: password.value };
     console.log('formData: ', formData);
